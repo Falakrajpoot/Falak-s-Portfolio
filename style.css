@@ -1,0 +1,147 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body a {
+    text-decoration: none;
+    color: #000000;
+    transition: all 1s;
+}
+
+body a:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+
+}
+
+.nav-bar {
+    width: 100%;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-bar a {
+    text-decoration: none;
+}
+
+.nav-bar select {
+    border: none;
+    height: 30px;
+}
+
+.nav-bar select:hover {
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    height: 577px;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+h1 {
+    transition: all 0.5s;
+}
+
+h2 {
+    transition: all 0.5s;
+}
+
+h1:hover {
+    text-shadow: 0px -0px 10px #000000;
+}
+
+h2:hover {
+    text-shadow: 0px -0px 10px #000000;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.logo img {
+    width: 400px;
+    height: 400px;
+    border-radius: 700px;
+    transition: all 0.5s;
+
+
+}
+
+.logo img:hover {
+    transform: scale(1.1);
+}
+
+.short-intro {
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+.short-intro a {
+    color: lightgray;
+}
+
+/* .content2>h1 {
+    text-align: start;
+    margin-top: 80px;
+} */
+
+.content2 p {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+
+}
+
+.content2 h2 {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.content2>.img img {
+    width: 100%;
+    margin-top: 50px;
+    height: 490px;
+}
+
+.image {
+    width: 200px;
+}
+
+.content-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.buttn {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap:50px ;
+}
+
+
+.buttn button {
+    width: 25%;
+    height: 50px;
+    border: none;
+    
+
+}
+.para{
+    visibility: hidden;
+}
